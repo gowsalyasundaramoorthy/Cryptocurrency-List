@@ -1,0 +1,25 @@
+table,
+th,
+td,
+tr {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-top: 0;
+    background: #ededed;
+}
+
+tr:hover {
+    background-color: aliceblue;
+}
+
+.crypto-symbol {
+    color: grey;
+    font-size: 0.8rem;
+}
